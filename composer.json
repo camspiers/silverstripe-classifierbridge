@@ -1,0 +1,17 @@
+{
+	"name": "camspiers/silverstripe-classifierbridge",
+	"description": "",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Cam Spiers",
+			"email": "camspiers@gmail.com"
+		}
+	],
+	"require": {
+		"camspiers/statistical-classifier": "~0.6.0"
+	},
+	"autoload": {
+		"psr-0": {"Camspiers\\StatisticalClassifier": "src/"}
+	}
+}
