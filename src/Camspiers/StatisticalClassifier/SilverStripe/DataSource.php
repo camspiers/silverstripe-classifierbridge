@@ -3,12 +3,13 @@
 namespace Camspiers\StatisticalClassifier\SilverStripe;
 
 use DataList;
+use Camspiers\StatisticalClassifier\DataSource\DataArray;
 
 /**
  * Class DataSource
  * @package Camspiers\StatisticalClassifier\SilverStripe
  */
-class DataSource
+class DataSource extends DataArray
 {
     /**
      * @var \DataList
