@@ -39,6 +39,7 @@ class DataSource
                 }
             }
         }
+
         return $data;
     }
 }
