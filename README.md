@@ -13,7 +13,10 @@ This library helps integrate classification services within SilverStripe sites.
 1. Implement the Document interface on your DataObject
 
 ```php
-class MyDataObject extends DataObject
+
+use Camspiers\StatisticalClassifier\SilverStripe\Document;
+
+class MyDataObject extends DataObject implements Document
 {
 
 	private static $db = array(
