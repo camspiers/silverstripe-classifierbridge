@@ -12,7 +12,7 @@ This library provides an easy way to integration a classification service within
 
 1. Implement the Document interface on your DataObject
 
-```
+```php
 class MyDataObject extends DataObject
 {
 
@@ -37,7 +37,7 @@ class MyDataObject extends DataObject
 
 2. Use a DataList to retrieve the existing DataObjects and classify a new DataObject
 
-```
+```php
 use Camspiers\StatisticalClassifier\Classifier\ComplementNaiveBayes;
 use Camspiers\StatisticalClassifier\SilverStripe\DataSource;
 use Camspiers\StatisticalClassifier\SilverStripe\Document;
@@ -67,7 +67,7 @@ try {
 
 Using SQLQuery can improve memory usage and execution time, because it bypasses the creation of DataObjects for each record
 
-```
+```php
 use Camspiers\StatisticalClassifier\Classifier\ComplementNaiveBayes;
 use Camspiers\StatisticalClassifier\DataSource\Grouped;
 use Camspiers\StatisticalClassifier\SilverStripe\SQLQueryDataSource;
