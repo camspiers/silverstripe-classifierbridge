@@ -24,7 +24,7 @@ class MyDataObject extends DataObject
 	
 	public function getCategories()
 	{
-		return array($this->Spam ? : 'spam' : 'ham');
+		return array($this->Spam ? 'spam' : 'ham');
 	}
 
 	public function getDocument()
