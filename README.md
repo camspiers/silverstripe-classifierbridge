@@ -1,6 +1,6 @@
 # SilverStripe Classifier Bridge
 
-This library provides an easy way to integration a classification service within SilverStripe sites.
+This library helps integrate classification services within SilverStripe sites.
 
 ## Installation (with composer)
 
